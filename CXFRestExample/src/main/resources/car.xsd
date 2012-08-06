@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.hopcroft.com/car"
+	xmlns:tns="http://example.hopcroft.com/car" elementFormDefault="qualified">
+	<element name="car">
+		<complexType>
+			<sequence>
+				<element name="brand" type="string"></element>
+				<element name="model" type="string"></element>
+				<element name="year" type="int"></element>
+				<element name="prize" type="long"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
