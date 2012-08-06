@@ -4,7 +4,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
 import com.hopcroft.example.car.Car;
-
+// car service
 @Path("car")
 public class CarResource {
 	@GET
